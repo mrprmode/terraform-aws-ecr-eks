@@ -1,7 +1,7 @@
 # terraform-aws-ecr-eks
 Terraform configs to dockerize a git repo, push to ECR, spin up a EKS cluster &amp; RDS host, update SSM with DB credentials, deploy a Loadbalanced service on AWS
 
-### All you need to pass via `terraform.tfvars` or is:
+### All you need to pass via `terraform.tfvars` is:
 ```
 aws_region = "us-west-2"
 git_repo   = "https://github.com/mrprmode/mountains.git"
