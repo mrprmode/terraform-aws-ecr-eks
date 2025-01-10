@@ -1,5 +1,5 @@
 aws_region = "us-west-2"
-git_repo   = "https://github.com/mrprmode/mountains.git"
+git_repo   = "https://github.com/mrprmode/go-mountains.git"
 local_name = {
   name = "mountains",
   env  = "dev"
